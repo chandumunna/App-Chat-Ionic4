@@ -1,0 +1,15 @@
+ion-header {
+  text-align: center;
+}
+ion-content {
+  .box {
+    width: 100%;
+    height: 200px;
+    margin: 10px auto;
+  }
+  .effect {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+  }
+}

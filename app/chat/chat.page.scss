@@ -1,0 +1,35 @@
+.innermsg {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+.imguid {
+  float: left;
+  img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+  }
+  .innermsg.left {
+    background-color: #f1f0f0;
+    color: black;
+  }
+}
+
+.innermsg.right {
+  float: right;
+  background-color: #0084ff;
+  color: white;
+}
+
+.msgbubble {
+  margin-bottom: 10px;
+}
+.time {
+  display: block;
+  font-size: 10px !important;
+}
